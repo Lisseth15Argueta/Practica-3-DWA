@@ -1,0 +1,47 @@
+/*Estilo personalizados para los botones*/
+.btn-container{
+    display: flex;
+    justify-content: center; /*Centra los botones horrizontalmente*/
+    padding: 10px 0;
+    margin: 0 5px;
+}
+
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger{
+    margin: 0 2px; /* Agrega un margen horizontal de 5px a cada botón */
+}
+
+.btn-default{
+    background-color: salmon;
+    color: black;
+    border-color: salmon;
+}
+
+.btn-primary{
+    background-color: aqua;
+    color: black;
+    border-color: aqua;
+}
+
+.btn-success{
+    background-color: chartreuse;
+    color: black;
+    border-color: chartreuse;
+}
+
+.btn-info{
+    background-color: orchid;
+    color: black;
+    border-color: orchid;
+}
+
+.btn-warning{
+    background-color: deeppink;
+    color: black;
+    background-color: deeppink;
+}
+
+.btn-danger{
+    background-color: mediumspringgreen;
+    color: black;
+    border-color: mediumspringgreen;
+}
